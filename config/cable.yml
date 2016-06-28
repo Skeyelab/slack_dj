@@ -1,5 +1,5 @@
 production:
-  url: <%= ENV['REDISTOGO_URL'] %>
+  url: <%= ENV['REDIS_URL'] %>
 
 development:
   adapter: async
