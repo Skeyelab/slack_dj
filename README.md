@@ -32,7 +32,7 @@ git clone https://github.com/adamakhtar/slack_dj.git
 heroku create my_app_name # note the apps url
 
 # get a free redis instance 
-heroku addons:create redistogo 
+heroku addons:create heroku-redis:hobby-dev
 
 # configure the heroku app by running 
 heroku config:set APP_DOMAIN=my_app_name.herokuapp.com  
